@@ -81,7 +81,7 @@ module "alb" {
     }
   ]
 
-  common_tags = {
+  tags = {
     Environment = "dev"
   }
 }
